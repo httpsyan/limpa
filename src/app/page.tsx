@@ -5,11 +5,11 @@ import { Hero } from "../components/hero";
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col">
-      <div className="flex flex-col md:gap-16 !pt-0 ">
+      <div className="flex flex-col gap-16 !pt-0 ">
         <Hero />
         <Feature />
         <Cta />
-        <section className="container flex flex-col gap-6 md:gap-14 mx-auto mb-32">
+        <section className="container flex flex-col gap-6 md:gap-14 mx-auto mb-32 px-10">
           <h2 className="text-xl font-semibold -tracking-4 md:text-4xl font-mono">
             Perguntas Frequentes
           </h2>
