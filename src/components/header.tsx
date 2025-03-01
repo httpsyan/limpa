@@ -15,7 +15,7 @@ export const Header = () => {
           >
             Limpa
           </Link>
-          <ul className="col-start-2 gap-5 px-2 font-mono font-semibold uppercase -tracking-2 text-brand-neutrals-700 dark:text-brand-neutrals-200 xl:gap-11 hidden lg:flex">
+          <ul className="col-start-2 gap-5 px-2 font-mono font-semibold uppercase -tracking-2 text-neutrals-700 dark:text-brand-neutrals-200 xl:gap-11 hidden lg:flex">
             <li>
               <Link
                 href="/"

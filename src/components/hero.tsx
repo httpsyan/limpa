@@ -7,12 +7,12 @@ export const Hero = () => {
     <section className="container mx-auto h-[40rem] md:h-svh md:max-h-[min(80rem,300vw)] md:min-h-[48rem] px-4 pb-4 text-white md:pb-6 mb-12 md:mb-28">
       <div className="relative flex flex-col justify-start gap-6 pt-12 h-full max-w-[1808px] overflow-hidden rounded-2xl text-center md:justify-between md:gap-12 md:px-6 md:pt-20">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/3 -left-1/4 w-[700px] h-[700px] bg-gradient-to-r from-[#FF4D00] via-[#FF7A00] to-[#FFB800] rounded-full blur-[100px] mix-blend-screen" />
-          <div className="absolute bottom-1/4 right-0 w-[700px] h-[700px] bg-gradient-to-tl from-[#9D00FF] via-[#7000FF] to-[#4C00FF] rounded-full blur-[100px] mix-blend-screen" />
+          <div className="absolute top-1/3 -left-1/4 w-[700px] h-[700px] bg-gradient-to-r from-[#2ECC71] via-[#27AE60] to-[#219653] rounded-full blur-[100px] mix-blend-screen" />
+          <div className="absolute bottom-1/4 right-0 w-[700px] h-[700px] bg-gradient-to-tl from-[#00B894] via-[#00A884] to-[#009874] rounded-full blur-[100px] mix-blend-screen" />
         </div>
 
         <div className="relative z-50 px-4 md:px-0">
-          <h1 className="font-semibold -tracking-4 text-balance !text-[clamp(2.5rem,_1.25rem_+_5vw,_6.5rem)] !leading-[1] md:!leading-[clamp(3.5rem,_2.5rem_+_3vw,_5.5rem)]">
+          <h1 className="font-semibold -tracking-4 text-balance !text-[clamp(2.5rem,_1.25rem_+_5vw,_6.5rem)] font-sans !leading-[1] md:!leading-[clamp(3.5rem,_2.5rem_+_3vw,_5.5rem)]">
             Carregadores Inteligentes
           </h1>
         </div>
