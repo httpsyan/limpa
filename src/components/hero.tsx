@@ -20,7 +20,7 @@ export const Hero = () => {
         <div className="relative z-50 mb-6 px-4 md:-mb-6 md:px-0">
           <p className="[&_b]:md:font-semibold [&_strong]:md:font-semibold whitespace-pre-line font-mono text-base/[1.25rem] md:text-1.5xl/[1.6875rem] !text-balance [&>br]:hidden sm:[&>br]:inline">
             Mobilidade elétrica descomplicada, sustentável e acessível em todos
-            os
+            os lugares.
           </p>
         </div>
 
