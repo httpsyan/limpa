@@ -22,11 +22,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="dark">
       <body
-        className={`${inter.className} flex min-h-screen flex-col bg-black`}
+        className={`${inter.className} flex min-h-screen flex-col bg-black relative`}
       >
         <Header />
-
-        {children}
+        <div className="flex-1 pt-[var(--navbar-height)]">{children}</div>
       </body>
     </html>
   );
