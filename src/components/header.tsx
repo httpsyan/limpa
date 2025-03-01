@@ -1,6 +1,5 @@
 "use client";
 
-import { User } from "lucide-react";
 import Link from "next/link";
 
 export const Header = () => {
@@ -27,16 +26,8 @@ export const Header = () => {
           </ul>
 
           <div className="col-start-3 hidden w-full justify-end items-center gap-5 lg:flex">
-            <div className="hidden w-12 justify-end lg:flex">
-              <button className="relative inline-flex items-center justify-center whitespace-nowrap rounded-lg uppercase disabled:opacity-50 cursor-pointer overflow-hidden transition-[color,background-color,border-color,opacity] before:absolute before:-inset-0 after:absolute after:inset-0 motion-reduce:transition-none text-brand-black border border-gray-neutrals-100 hover:!border-brand-gray-400 after:transition-colors after:duration-300 md:px-4 md:py-3.5 font-mono font-semibold text-sm/[1.125rem] tracking-4 aspect-square h-full w-full !p-0">
-                <span className="relative z-10 flex">
-                  <User />
-                </span>
-              </button>
-            </div>
-
             <button className="relative inline-flex items-center justify-center whitespace-nowrap rounded-lg uppercase disabled:opacity-50 cursor-pointer overflow-hidden transition-[color,background-color,border-color,opacity] after:absolute after:inset-0 motion-reduce:transition-none style_default__7SzNF bg-white text-black md:px-4 md:py-3.5 font-mono font-semibold text-sm/[1.125rem] tracking-4 gap-2">
-              DOWLOAD
+              SAIBA MAIS
             </button>
           </div>
         </div>

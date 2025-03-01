@@ -11,24 +11,23 @@ export const Cta = () => {
           id="testimonial-heading"
           className="text-white font-medium text-xl font-mono"
         >
-          &ldquo;A tecnologia dos carregadores inteligentes revolucionou minha
-          experiência com veículos elétricos. A praticidade e eficiência são
-          incomparáveis.&rdquo;
+          &ldquo;Nosso propósito vai além do carregamento. Queremos tornar a
+          transição para a mobilidade elétrica simples, acessível e eficiente,
+          conectando cidades, impulsionando negócios e reduzindo o impacto
+          ambiental.&rdquo;
         </h2>
         <div className="flex items-center space-x-4">
           <Avatar className="w-12 h-12 ring-1 ring-white/10">
             <AvatarImage
-              src="https://github.com/shadcn.png"
-              alt="Avatar do cliente Daniel Santos"
+              src="/daniel.png"
+              alt="Avatar do cliente Daniel Torres"
             />
             <AvatarFallback>DS</AvatarFallback>
           </Avatar>
 
           <div className="flex flex-col">
-            <h3 className="text-[#B3B3B3] font-semibold">Daniel Santos</h3>
-            <p className="font-medium text-[#B3B3B3] text-sm">
-              Proprietário de Tesla Model 3
-            </p>
+            <h3 className="text-[#B3B3B3] font-semibold">Daniel Torres</h3>
+            <p className="font-medium text-[#B3B3B3] text-sm">CEO da WLIMPAR</p>
           </div>
         </div>
       </div>
