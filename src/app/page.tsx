@@ -9,7 +9,7 @@ export default function Home() {
         <Hero />
         <Feature />
         <Cta />
-        <section className="container flex flex-col gap-6 md:gap-14 mx-auto mb-32 px-10">
+        <section className="container flex flex-col gap-6 md:gap-14 mx-auto mb-32 ">
           <h2 className="text-xl font-semibold -tracking-4 md:text-4xl font-mono">
             Perguntas Frequentes
           </h2>
