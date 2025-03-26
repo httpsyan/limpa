@@ -1,6 +1,7 @@
 import { Cta } from "../components/cta";
 import { Feature } from "../components/feature";
 import { Hero } from "../components/hero";
+import { Footer } from "../components/footer";
 
 export default function Home() {
   return (
@@ -86,6 +87,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </main>
   );
 }

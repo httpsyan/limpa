@@ -25,11 +25,15 @@ export const Hero = () => {
         </div>
 
         <div className="absolute bottom-4 left-0 z-50 mx-auto flex w-full flex-col justify-center gap-2 px-5 md:static md:flex-row md:gap-4">
-          <button className="group relative rounded-xl p-1 -outline-offset-2 border border-white/30 flex flex-col">
+          <a
+            href="mailto:contato@wlimpar.com.br"
+            className="group relative rounded-xl p-1 -outline-offset-2 border border-white/30 flex flex-col"
+          >
             <span className="relative inline-flex w-full flex-1 items-center justify-center gap-4.5 whitespace-nowrap rounded-lg uppercase shadow-[0px_4px_10px_rgba(0,0,0,0.35)] transition-colors motion-reduce:transition-none md:gap-6 px-3.5 py-[15px] font-mono text-sm/[1rem] font-semibold md:px-4 md:py-4.5 md:text-base/[1.3125rem] md:tracking-2 bg-black text-white dark:bg-white dark:text-black">
               Saiba mais
             </span>
-          </button>
+          </a>
+
           <Link
             href="/"
             className="group relative rounded-xl p-1 -outline-offset-2 border border-white/30 flex flex-col"
@@ -39,6 +43,7 @@ export const Hero = () => {
             </span>
           </Link>
         </div>
+
         <div className="z-10 mx-0 -mr-4 min-h-[35rem] max-w-[1296px] flex-1 px-2 w-full md:relative md:mx-auto md:min-h-[unset] md:px-0">
           <div className="overflow-hidden md:rounded-md bg-[#171717]">
             <video

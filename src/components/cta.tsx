@@ -44,11 +44,14 @@ export const Cta = () => {
           Junte-se à revolução da mobilidade elétrica. Descubra como nossos
           carregadores inteligentes podem transformar a sua vida.
         </h2>
-        <button className="group relative rounded-xl p-1 -outline-offset-2 border border-white/30 flex flex-col">
+        <a
+          href="mailto:contato@wlimpar.com.br"
+          className="group relative rounded-xl p-1 -outline-offset-2 border border-white/30 flex flex-col"
+        >
           <span className="relative inline-flex w-full flex-1 items-center justify-center gap-4.5 whitespace-nowrap rounded-lg uppercase shadow-[0px_4px_10px_rgba(0,0,0,0.35)] transition-colors motion-reduce:transition-none md:gap-6 px-3.5 py-[15px] font-mono text-sm/[1rem] font-semibold md:px-4 md:py-4.5 md:text-base/[1.3125rem] md:tracking-2 bg-black text-white dark:bg-white dark:text-black">
             COMEÇAR AGORA
           </span>
-        </button>
+        </a>
       </div>
     </section>
   );
