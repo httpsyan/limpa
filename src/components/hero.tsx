@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 export const Hero = () => {
   return (
     <section className="container mx-auto h-[40rem] md:h-svh md:max-h-[min(80rem,300vw)] md:min-h-[48rem] px-4 pb-4 text-white md:pb-6 mb-12 md:mb-28">
@@ -34,14 +32,14 @@ export const Hero = () => {
             </span>
           </a>
 
-          <Link
-            href="/"
+          <a
+            href="mailto:contato@wlimpar.com.br"
             className="group relative rounded-xl p-1 -outline-offset-2 border border-white/30 flex flex-col"
           >
             <span className="relative inline-flex w-full flex-1 items-center justify-center gap-4.5 whitespace-nowrap rounded-lg uppercase shadow-[0px_4px_10px_rgba(0,0,0,0.35)] transition-colors motion-reduce:transition-none md:gap-6 px-3.5 py-[15px] font-mono text-sm/[1rem] font-semibold md:px-4 md:py-4.5 md:text-base/[1.3125rem] md:tracking-2 bg-white text-brand-light-black dark:bg-black dark:text-white">
               Contato
             </span>
-          </Link>
+          </a>
         </div>
 
         <div className="z-10 mx-0 -mr-4 min-h-[35rem] max-w-[1296px] flex-1 px-2 w-full md:relative md:mx-auto md:min-h-[unset] md:px-0">
